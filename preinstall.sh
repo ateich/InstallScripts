@@ -19,9 +19,9 @@ if type boot2docker > /dev/null; then
   
 #they don't have boot2docker, install it
 else
-  sudo -S installer -verbose -pkg ../Boot2Docker.pkg -target /;
+  sudo -S installer -verbose -pkg Boot2Docker.pkg -target /;
 fi
 
 
 #install vagrant
-sudo -S installer -verbose -pkg ../Vagrant.pkg -target /;
+sudo -S installer -verbose -pkg Vagrant.pkg -target /;
