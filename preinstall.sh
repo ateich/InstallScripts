@@ -15,5 +15,5 @@ fi
 sudo mkdir -m 777 /.CrowdCrunch
 sudo cp package.box /.CrowdCrunch/package.box
 cd /.CrowdCrunch
-vagrant init preconfigured_vm package.box 
-sudo rm -rf package.box
+#vagrant init preconfigured_vm package.box 
+#sudo rm -rf package.box
